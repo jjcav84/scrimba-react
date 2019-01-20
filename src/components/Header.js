@@ -1,11 +1,9 @@
 import React from "react"
 
-function Navbar() {
-  return (
-    <header>
-      This is the header
-    </header>
-  )
+function Header() {
+    return (
+        <header className="navb">This is the header</header>
+    )
 }
 
-export default Navbar
+export default Header
