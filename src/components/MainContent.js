@@ -1,6 +1,6 @@
 import React from "react"
 
-function MyInfo() {
+function MainContent() {
   return (
     <div>
       <h1>Jacob Cavazos</h1>
@@ -14,4 +14,4 @@ function MyInfo() {
   )
 }
 
-export default MyInfo
+export default MainContent
