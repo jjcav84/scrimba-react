@@ -1,9 +1,15 @@
 import React from "react"
 import MyInfo from "./components/MyInfo"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <MyInfo />
+    <div>
+      <main>
+         <MyInfo />
+      </main>
+      <Footer />
+    </div>
   )
 }
 
