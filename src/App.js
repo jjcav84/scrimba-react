@@ -3,7 +3,7 @@ import TodoItems from "./components/TodoItem"
 
 function App() {
     return (
-        <div>
+        <div className="todo-list">
           <TodoItems />
           <TodoItems />
           <TodoItems />
