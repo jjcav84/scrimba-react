@@ -1,0 +1,63 @@
+{
+  "entry": "/Users/jacobcavazos/React/scrimba-1/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "siteRoot": "https://jakecavazos.website",
+  "paths": {
+    "ROOT": "/Users/jacobcavazos/React/scrimba-1",
+    "LOCAL_NODE_MODULES": "/Users/jacobcavazos/React/scrimba-1/node_modules/react-static/node_modules",
+    "SRC": "/Users/jacobcavazos/React/scrimba-1/src",
+    "PAGES": "/Users/jacobcavazos/React/scrimba-1/src/pages",
+    "DIST": "/Users/jacobcavazos/React/scrimba-1/dist",
+    "ASSETS": "/Users/jacobcavazos/React/scrimba-1/dist",
+    "PLUGINS": "/Users/jacobcavazos/React/scrimba-1/plugins",
+    "TEMP": "/Users/jacobcavazos/React/scrimba-1/tmp",
+    "PUBLIC": "/Users/jacobcavazos/React/scrimba-1/public",
+    "NODE_MODULES": "/Users/jacobcavazos/React/scrimba-1/node_modules",
+    "EXCLUDE_MODULES": "/Users/jacobcavazos/React/scrimba-1/node_modules",
+    "PACKAGE": "/Users/jacobcavazos/React/scrimba-1/package.json",
+    "HTML_TEMPLATE": "/Users/jacobcavazos/React/scrimba-1/dist/index.html",
+    "STATIC_DATA": "/Users/jacobcavazos/React/scrimba-1/dist/staticData"
+  },
+  "plugins": [
+    {
+      "location": "/Users/jacobcavazos/React/scrimba-1",
+      "nodeLocation": null,
+      "browserLocation": null,
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "babelExcludes": [],
+  "basePath": "",
+  "publicPath": "https://jakecavazos.website/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "node_modules/react-static/lib/browser/components/Default404",
+      "template": "../node_modules/react-static/lib/browser/components/Default404"
+    },
+    {
+      "path": "/",
+      "originalPath": "/",
+      "hasGetProps": false,
+      "fromConfig": true
+    }
+  ],
+  "templates": [
+    "../node_modules/react-static/lib/browser/components/Default404"
+  ]
+}
