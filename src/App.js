@@ -1,5 +1,5 @@
 import React from "react"
-import TodoItems from "./components/TodoItem";
+import TodoItems from "./components/TodoItem"
 
 function App() {
     return (
