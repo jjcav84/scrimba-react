@@ -3,7 +3,7 @@ import TodoItem from "./components/TodoItem"
 import todosData from "./data/todosData"
 
 function App() {
-    const itemComponents = todosData.map(item => <TodoItem key={item.id} text={item.text} />)
+    const itemComponents = todosData.map(item => <TodoItem key={item.id} text={item.text} completed={item.completed} />)
     return (
         <div className="todo-list">
             {itemComponents}
