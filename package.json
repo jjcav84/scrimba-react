@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "bootstrap-css-only": "^4.2.1",
-    "font-awesome": "^4.7.0",
-    "mdbreact": "^4.9.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-hot-loader": "^4.3.12",
-    "react-static": "^6.0.18"
+    "bootstrap-css-only": "4.2.1",
+    "font-awesome": "4.7.0",
+    "mdbreact": "4.9.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-hot-loader": "4.6.3",
+    "react-static": "6.3.2"
   },
   "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^10.1.1"
+    "eslint-config-react-tools": "1.1.6",
+    "serve": "10.1.1"
   }
 }
