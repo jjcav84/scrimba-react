@@ -1513,7 +1513,14 @@ autoprefixer@^9.6.1:
     postcss "^7.0.23"
     postcss-value-parser "^4.0.2"
 
-axios@0.19.1, axios@^0.19.0:
+axios@0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
+  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+  dependencies:
+    follow-redirects "^1.10.0"
+
+axios@^0.19.0:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
   integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
@@ -4191,6 +4198,11 @@ follow-redirects@^1.0.0:
   integrity sha512-t2JCjbzxQpWvbhts3l6SH1DKzSrx8a+SsaVf4h6bG4kOXUuPYS/kg2Lr4gQSb7eemaHqJkOThF1BGyjlUkO1GQ==
   dependencies:
     debug "=3.1.0"
+
+follow-redirects@^1.10.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 font-awesome@4.7.0:
   version "4.7.0"
