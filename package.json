@@ -13,7 +13,7 @@
     "font-awesome": "4.7.0",
     "mdbreact": "5.2.0",
     "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react-dom": "19.2.8",
     "react-hot-loader": "4.13.1",
     "react-static": "7.6.2"
   },
